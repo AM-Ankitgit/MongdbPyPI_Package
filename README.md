@@ -17,20 +17,24 @@ from MongoDB_CRUDE_Operation.mongodb_connect.mongo_crud import  mongo_operation
 
 Initialize MongoDB connection
 
-'''client_url = "mongodb://localhost:27017/"
+<div style="background-color:#f4f4f4; padding:10px;">
+<pre><code>
+client_url = "mongodb://localhost:27017/"
 database_name = "mydatabase"
 collection_name = "mycollection"
 
 mongo_op = mongo_operation(client_url, database_name, collection_name)
 
-Insert a single record
+# Insert a single record
 record = {"name": "John", "age": 30}
 mongo_op.insert_record(record, collection_name)
 
-Bulk insert data from CSV or Excel file
+# Bulk insert data from CSV or Excel file
 datafile = "data.csv"
 mongo_op.bulk_insert(datafile, collection_name)
-'''
+</code></pre>
+</div>
+
 
 ## `Requirements:`
 
