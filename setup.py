@@ -22,6 +22,7 @@ __version__ = "0.0.1"
 REPO_NAME = "MongdbPyPI_Package"
 PKG_NAME= "MongoDBOperation"
 AUTHOR_USER_NAME = "AM-Ankitgit"
+
 AUTHOR_EMAIL = "mahalleankit@gmail.com"
 
 setup(
