@@ -8,6 +8,7 @@ MongoClient Creation: Easily create a MongoDB client with a given URL.
 Database and Collection Management: Create databases and collections with ease, and automatically handle re-creating them if they already exist.
 Insertion Operations: Insert records into MongoDB collections, whether it's a single record or bulk data from CSV or Excel files.
 
+
 # `Example Usage:`
 
 `python code`
