@@ -1,3 +1,43 @@
+Description:
+
+mongo-operation is a Python library for simplifying MongoDB operations by providing an easy-to-use interface. This library allows users to perform common MongoDB tasks such as creating a client, database, or collection, as well as inserting records into collections and bulk inserting data from CSV or Excel files.
+
+Features:
+
+MongoClient Creation: Easily create a MongoDB client with a given URL.
+Database and Collection Management: Create databases and collections with ease, and automatically handle re-creating them if they already exist.
+Insertion Operations: Insert records into MongoDB collections, whether it's a single record or bulk data from CSV or Excel files.
+
+Example Usage:
+
+python code
+from mongo_operation import mongo_operation
+
+Initialize MongoDB connection
+client_url = "mongodb://localhost:27017/"
+database_name = "mydatabase"
+collection_name = "mycollection"
+mongo_op = mongo_operation(client_url, database_name, collection_name)
+
+Insert a single record
+record = {"name": "John", "age": 30}
+mongo_op.insert_record(record, collection_name)
+
+Bulk insert data from CSV or Excel file
+datafile = "data.csv"
+mongo_op.bulk_insert(datafile, collection_name)
+Requirements:
+
+Python 3.x
+pandas
+pymongo
+ensure
+
+
+
+
+
+
 # requirements_dev.txt we use for the testing
 It makes it easier to install and manage dependencies for development and testing, separate from the dependencies required for production.
 
