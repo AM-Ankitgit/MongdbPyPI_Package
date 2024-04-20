@@ -20,7 +20,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
 
 __version__ = "v0.0.13"
 REPO_NAME = "MongdbPyPI_Package"
-PKG_NAME= "MongoDBCrud_Operation"
+PKG_NAME= "MongoDBCrudOperation"
 AUTHOR_USER_NAME = "AM-Ankitgit"
 
 AUTHOR_EMAIL = "mahalleankit@gmail.com"
