@@ -25,6 +25,7 @@ collection_name = "mycollection"
 
 mongo_op = mongo_operation(client_url, database_name, collection_name)
 
+
 # Insert a single record
 record = {"name": "John", "age": 30}
 mongo_op.insert_record(record, collection_name)
