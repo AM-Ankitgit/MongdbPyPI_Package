@@ -13,7 +13,8 @@ Insertion Operations: Insert records into MongoDB collections, whether it's a si
 
 `python code`
 
-from MongoDB_CRUDE_Operation.mongodb_connect.mongo_crud import  mongo_operation
+
+from mongodb_connect.mongo_crud import mongo_operation
 
 Initialize MongoDB connection
 
